@@ -3,8 +3,8 @@
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
-OS=`uname -m`;
-MYIP=`curl -s ifconfig.me`;
+OS='uname -m';
+MYIP='curl -s ifconfig.me';
 MYIP2="s/xxxxxxxxx/$MYIP/g";
 
 # detail nama perusahaan
